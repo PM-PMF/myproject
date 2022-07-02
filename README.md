@@ -1,2 +1,2 @@
 # myproject
-#treba se ubaciti Lib i Include.
+Treba se ubaciti Lib i Include.
