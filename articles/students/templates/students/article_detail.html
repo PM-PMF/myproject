@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Title: {{ article.headline }}</h1>
+
+  <p><strong>Student:</strong> {{ article.id }} {{ article.last_name }}</p> <!-- author detail link not yet defined -->
+  
+  <div style="margin-left:20px;margin-top:20px">
+    <h4>{{ article.short_content }}</h4>
+  
+    
+   
+    </div>
+{% endblock %}

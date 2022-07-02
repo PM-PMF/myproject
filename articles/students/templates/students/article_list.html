@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Article List</h1>
+  {% if article_list %}
+  <ul>
+    {% for article in article_list %}
+      <li>
+        {{ article.headline }} ({{article.last_name}}) ({{article.short_content}})
+       </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no such articles.</p>
+  {% endif %}
+{% endblock %}
